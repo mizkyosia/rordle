@@ -1,0 +1,26 @@
+{
+  "name": "@rordle/api",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/app.js",
+  "keywords": [],
+  "author": "mizkyosia",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.13.2",
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^1.0.0-rc.4",
+    "express": "^5.2.1",
+    "pg": "^8.22.0",
+    "shared": "file:../packages/shared"
+  }
+}
